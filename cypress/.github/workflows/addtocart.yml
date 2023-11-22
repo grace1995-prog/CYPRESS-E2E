@@ -1,4 +1,4 @@
-name: End-to-end tests
+name: Add-to-Cart
 on: push
 jobs:
   cypress-run:
