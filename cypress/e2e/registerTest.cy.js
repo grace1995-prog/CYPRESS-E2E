@@ -9,6 +9,23 @@ describe('test automation', () => {
         loginObj.enteremail(registerData.username)
         loginObj.enterpassword(registerData.password)
         loginObj.clickbutton()
+       
+
+        
+
+
+      
+    })
+  })
+
+  describe('test automation', () => {
+
+    it('fails', () => {
+        loginObj.openURL()
+        loginObj.enteremail(registerData.username)
+        loginObj.checkerror(registerData.wrongpassword)
+        loginObj.clickbutton()
+        loginObj.checkerror()
 
         
 
