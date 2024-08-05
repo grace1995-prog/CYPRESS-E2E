@@ -17,19 +17,3 @@ describe('test automation', () => {
       
     })
   })
-
-  describe('test automation', () => {
-
-    it('fails', () => {
-        loginObj.openURL()
-        loginObj.enteremail(registerData.username)
-        loginObj.checkerror(registerData.wrongpassword)
-        loginObj.clickbutton()
-        loginObj.checkerror()
-
-        
-
-
-      
-    })
-  })

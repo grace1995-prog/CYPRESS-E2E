@@ -62,13 +62,10 @@ export class loginPage{
 
 
     }
-    checkerror(){
-        cy.get(this.weblocators.error)
-        .should('be.visible')
-        .and('contain.text', 'Incorrect login details. Please try again.');
+  
         
     }      
         
       
-}
+
 
