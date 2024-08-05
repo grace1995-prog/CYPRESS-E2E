@@ -14,7 +14,8 @@ describe('Positive Test', () => {
   });
 
 
-  describe('Negative Tests', () => {
+  describe('Negative Tests', () => { //For this test while running on git-hub actions
+    // an error will be returned due to the Negative Test
     
     beforeEach(() => {
       cy.visit('https://www.saucedemo.com/');
