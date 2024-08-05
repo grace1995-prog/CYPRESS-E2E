@@ -12,8 +12,7 @@ describe('template spec', () => {
     cy.get('#login-button').click();
     
   });
-
-
+  
   it('Failed login with invalid credentials', () => {
     cy.get('#user-name').type('standard_user');
     cy.wait(1000)
