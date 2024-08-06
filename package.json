@@ -18,5 +18,8 @@
   "homepage": "https://github.com/grace1995-prog/CYPRESS-E2E#readme",
   "dependencies": {
     "cypress": "^13.5.0"
+  },
+  "devDependencies": {
+    "cypress-mochawesome-reporter": "^3.8.2"
   }
 }
